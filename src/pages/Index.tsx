@@ -42,21 +42,20 @@ const Index = () => {
 
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Morgan Blake",
-    "jobTitle": "Production Photographer",
-    "description": "Production photographer specializing in fashion, editorial, and commercial photography. Creating compelling imagery for global brands and publications.",
-    "url": "https://morganblake.com",
-    "image": "https://morganblake.com/og-image.jpg",
+    "@type": "Organization",
+    "name": "Raya Agency",
+    "description": "A full-service photographic agency representing world-class photographers across fashion, editorial, and commercial disciplines.",
+    "url": "https://raya.agency",
+    "image": "https://raya.agency/og-image.jpg",
     "sameAs": [
-      "https://instagram.com/morganblake.photo"
+      "https://instagram.com/raya.agency"
     ],
     "knowsAbout": [
+      "Photographer Representation",
       "Fashion Photography",
       "Editorial Photography",
       "Commercial Production",
-      "Fashion Campaigns",
-      "Brand Photography"
+      "Brand Campaigns"
     ],
     "address": {
       "@type": "PostalAddress",
@@ -68,8 +67,8 @@ const Index = () => {
   return (
     <>
       <SEO
-        title="Morgan Blake - Fashion Production & Photography"
-        description="Production photographer specializing in fashion, editorial, and commercial photography. Creating compelling imagery for global brands and publications."
+        title="Raya Agency - Photographic Representation & Production"
+        description="A full-service photographic agency representing world-class photographers across fashion, editorial, and commercial disciplines."
         canonicalUrl="/"
         ogType="profile"
         jsonLd={jsonLd}
