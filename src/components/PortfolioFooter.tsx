@@ -3,10 +3,10 @@ const PortfolioFooter = () => {
     <footer className="max-w-[1600px] mx-auto px-3 md:px-5 pb-16">
       <div className="text-center text-[10px] uppercase tracking-widest font-inter text-muted-foreground">
         <a
-          href="mailto:hello@morganblake.com"
+          href="mailto:hello@raya.agency"
           className="hover:text-foreground transition-colors"
         >
-          E: hello@morganblake.com
+          E: hello@raya.agency
         </a>
         <span className="mx-2">/</span>
         <a
@@ -17,12 +17,12 @@ const PortfolioFooter = () => {
         </a>
         <span className="mx-2">/</span>
         <a
-          href="https://instagram.com/morganblake.photo"
+          href="https://instagram.com/raya.agency"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-foreground transition-colors"
         >
-          I: @morganblake.photo
+          I: @raya.agency
         </a>
       </div>
     </footer>
