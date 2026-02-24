@@ -83,8 +83,8 @@ const About = () => {
   return (
     <>
       <SEO
-        title="About - Morgan Blake"
-        description="Learn about Morgan Blake, a production photographer specializing in fashion, editorial, and commercial photography."
+        title="About - Raya Agency"
+        description="Learn about Raya Agency, a full-service photographic agency representing world-class photographers across fashion, editorial, and commercial disciplines."
         canonicalUrl="/about"
       />
 
@@ -97,10 +97,10 @@ const About = () => {
           <div className="text-center space-y-8 mb-16 px-3 md:px-5 max-w-2xl mx-auto">
             <div className="space-y-4">
               <h1 className="font-playfair text-4xl md:text-5xl text-foreground">
-                Morgan Blake
+                Raya Agency
               </h1>
               <p className="text-[10px] uppercase tracking-widest text-muted-foreground font-inter">
-                PRODUCTION & PHOTOGRAPHY
+                PHOTOGRAPHIC REPRESENTATION & PRODUCTION
               </p>
             </div>
 
