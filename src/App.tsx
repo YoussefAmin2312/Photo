@@ -20,7 +20,7 @@ const App = () => (
         <ErrorBoundary>
           <Toaster />
           <Sonner />
-          <BrowserRouter basename="/PHOTO">
+          <BrowserRouter basename="/Photo">
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/about" element={<About />} />
