@@ -33,9 +33,9 @@ const Project = () => {
     "name": "Alpine Light",
     "description": "A collection of images capturing the ethereal quality of early morning light in mountain landscapes. These photographs explore the delicate balance between shadow and illumination in high-altitude environments.",
     "creator": {
-      "@type": "Person",
-      "name": "Morgan Blake",
-      "url": "https://morganblake.com"
+      "@type": "Organization",
+      "name": "Raya Agency",
+      "url": "https://raya.agency"
     },
     "about": {
       "@type": "Thing",
@@ -43,11 +43,11 @@ const Project = () => {
     },
     "image": projectImages.map((img) => ({
       "@type": "ImageObject",
-      "contentUrl": `https://morganblake.com${img.src}`,
+      "contentUrl": `https://raya.agency${img.src}`,
       "caption": img.caption,
       "creator": {
-        "@type": "Person",
-        "name": "Morgan Blake"
+        "@type": "Organization",
+        "name": "Raya Agency"
       }
     })),
     "datePublished": "2024",
@@ -57,7 +57,7 @@ const Project = () => {
   return (
     <>
       <SEO
-        title="Alpine Light - Morgan Blake"
+        title="Alpine Light - Raya Agency"
         description="A collection of images capturing the ethereal quality of early morning light in mountain landscapes. These photographs explore the delicate balance between shadow and illumination in high-altitude environments."
         canonicalUrl={`/project/${slug}`}
         ogType="article"
